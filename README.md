@@ -42,6 +42,12 @@ Insert the switch in your html template.
   <switch id="enabled" name="enabled" ng-model="enabled" class="green"></switch>
   <br>{{ enabled }}
 </form>
+
+or 
+
+<form>
+   <switch name="enabled123" ng-change="tell(enabled)" ng-model="enabled" class="green" on="On" off="Off"></switch>
+</form
 ```
 
 Add optional on/off text
